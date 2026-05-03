@@ -75,7 +75,7 @@ export default function Navbar({ darkMode, setDarkMode }) {
                 <Heart className="w-5 h-5 text-white" fill="currentColor" style={{ animation: 'heartbeat 1.4s ease-in-out infinite' }} />
               </div>
               <div className="text-left">
-                <p className={`font-display font-bold text-[17px] leading-none ${darkMode ? 'text-white' : 'text-navy-800'}`}>
+                <p className={`font-display font-bold text-[17px] leading-none ${darkMode ? 'text-white' : 'text-blue-300'}`}>
                   Dr. Basavaraj S
                 </p>
                 <p className="font-body text-[11px] text-teal-500 tracking-wider mt-0.5 uppercase font-medium">

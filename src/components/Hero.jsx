@@ -113,7 +113,7 @@ export default function Hero() {
               <span className="relative inline-block">
                 Basavaraj
                 <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 300 12" preserveAspectRatio="none" aria-hidden>
-                  <path d="M0,10 Q75,0 150,8 Q225,16 300,6" fill="none" stroke="url(#ug)" strokeWidth="3" strokeLinecap="round"/>
+                  <path fill="none" stroke="url(#ug)" strokeWidth="3" strokeLinecap="round"/>
                   <defs>
                     <linearGradient id="ug" x1="0%" y1="0%" x2="100%" y2="0%">
                       <stop offset="0%" stopColor="#2dd4bf"/>
@@ -241,7 +241,7 @@ export default function Hero() {
               {/* Main doctor photo */}
               <div className="relative w-72 h-[380px] sm:w-80 sm:h-[430px] lg:w-72 lg:h-[400px] xl:w-80 xl:h-[450px] rounded-[1.75rem] overflow-hidden shadow-2xl shadow-black/50">
                 <img
-                  src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=700&q=85&auto=format&fit=crop&crop=top"
+                  src="src\components\images\c037eb36-f928-4c44-8a99-3281d7592d1a.png"
                   alt="Dr. Basavaraj S – Consultant Interventional Cardiologist"
                   className="w-full h-full object-cover object-top"
                   loading="eager"
@@ -270,10 +270,11 @@ export default function Hero() {
                 icon={Award}
                 value="DNB"
                 label="Cardiology Certified"
-                color="bg-gradient-to-br from-teal-500 to-teal-600"
+                
+                color="bg-gradient-to-br from-teal-900 to-teal-600"
                 delay={0.7}
-                className="-left-12 top-14 z-20"
-                style={{ animation: 'float 5s ease-in-out infinite' }}
+                className="-left-12 top-0 z-20 text-black-800"
+                style={{ animation: 'float 5s ease-in-out infinite',  color: 'black' }}
               />
 
               {/* Floating badge – Patients */}
