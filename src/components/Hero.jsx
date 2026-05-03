@@ -268,8 +268,8 @@ export default function Hero() {
               {/* Floating badge – Award */}
               <StatBadge
                 icon={Award}
-                value="DNB"
-                label="Cardiology Certified"
+                 value={<span className="text-black">DNB</span>}  // Added text-black directly to value
+  label={<span className="text-black">Cardiology Certified</span>}  
                 
                 color="bg-gradient-to-br from-teal-900 to-teal-600"
                 delay={0.7}
